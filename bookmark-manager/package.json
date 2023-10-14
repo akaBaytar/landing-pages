@@ -1,0 +1,15 @@
+{
+  "name": "landing-pages",
+  "version": "1.0.0",
+  "description": "Responsive landing pages I coded during my Tailwind learning journey. Designs were taken from the Frontend Mentor website.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./dist/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./dist/style.css"
+  },
+  "author": "Burak Bilgili",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
